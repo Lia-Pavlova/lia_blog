@@ -1,11 +1,6 @@
 import React from 'react'
 import cl from 'classnames'
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillTelegram,
-  AiFillFacebook,
-} from 'react-icons/ai'
+import { BsGithub, BsFacebook, BsTelegram, BsLinkedin } from 'react-icons/bs'
 import ScreenEgg from '../ScreenEgg'
 import styles from './socialNet.module.scss'
 
@@ -13,22 +8,22 @@ const socialNetworks = [
   {
     id: 1,
     href: 'https://github.com/Lia-Pavlova',
-    icon: AiFillGithub,
+    icon: BsGithub,
   },
   {
     id: 2,
     href: 'https://www.linkedin.com/in/natalia-pavlova',
-    icon: AiFillLinkedin,
+    icon: BsLinkedin,
   },
   {
     id: 3,
     href: 'https://t.me/Lia_Pavlova',
-    icon: AiFillTelegram,
+    icon: BsTelegram,
   },
   {
     id: 4,
     href: 'https://www.facebook.com/pavlova.natalie/',
-    icon: AiFillFacebook,
+    icon: BsFacebook,
   },
 ]
 

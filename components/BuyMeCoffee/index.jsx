@@ -9,12 +9,12 @@ const BuyMeCoffee = ({ className }) => {
     <ScreenEgg type="right">
       <div className={cl(className, styles.buyCoffee)}>
         <a
-          href="https://buy.stripe.com/5kA7sL9574SG7xCfZ3"
+          // href="https://buy.stripe.com/5kA7sL9574SG7xCfZ3"
           target="_blank"
           className={styles.buyCoffeeButton}
           rel="noreferrer"
         >
-          Buy me a coffe...
+          Buy me a coffee...
         </a>
       </div>
     </ScreenEgg>
